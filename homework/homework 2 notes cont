@@ -1,0 +1,37 @@
+website pieces
+
+	heading
+	    myname (100% xs, 20% sm, 10%md)
+		float left
+	    nav bar (dropdown xs, 20% sm, 1/6 md, )
+	float right
+		
+		links
+		(don't show on xs)
+
+	content (100% xs, 100% sm, 60% md, 40% lg,  
+		profile pic
+		paragraph
+	contact me (100% xs, 100% sm, 33% md, 20% lg, 
+		social links
+
+	footer
+
+stucture
+
+	.wrapper
+		header
+			myname
+			navbar
+				sitelinks
+		maincontent
+			profile image
+			paragraph
+		sidebar
+			heading
+			social links
+		footer
+		
+	
+
+

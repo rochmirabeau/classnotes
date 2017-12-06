@@ -1,0 +1,10 @@
+localStorage.setItem('name' , 'value')
+localStorage.getItem
+localStorage.clear()
+	removeItem()
+
+
+
+
+sessionStorage = not stored in new tab
+localStorage = stored

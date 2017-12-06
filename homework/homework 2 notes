@@ -1,0 +1,51 @@
+640 
+about
+	{
+		header
+			myname - center, cleared left right
+			headerlinks - centered cleared
+	}
+	{
+		about
+			header - grey border under
+			main image - full width
+
+		main text
+	}
+
+	{
+		Connect - text smaller than header
+			aligned left
+			border bottom grey
+
+		social links
+		
+		sticky footer
+	}
+
+Portfolio
+	{
+		one image per line
+		smaller text on image
+		smaller background on text/image
+	}
+
+
+Contact
+	{
+	}
+
+768
+about
+	{
+		header
+			myname floated left
+		headerlinks
+			floated right border right
+	}
+	{
+		main
+		
+
+
+ 

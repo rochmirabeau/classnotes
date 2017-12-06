@@ -1,0 +1,48 @@
+.font1 {
+
+	font-family: 'Indie Flower', cursive;	font-size: 20px;
+	font-weight: bold;
+	line-height: 2.0;
+	letter-spacing: 10px;
+
+}
+
+.font2 {
+
+	font-family: 'Lobster', cursive;	
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.0;
+	letter-spacing: 15px;
+
+}
+
+.button:visited {
+	font-size: 50px;
+}
+
+.button {
+	color: #DA70D6;
+}
+
+.button:hover {
+	background-color: #FF00FF;
+	border: 2px solid;
+
+}
+
+.button:focus {
+
+	letter-spacing: 20px;
+}
+
+p::first-letter {
+
+	font-size: 50px;
+}
+
+
+::selection {
+
+	background-color: #777;
+}

@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="all">
+
+<script>
+	(function() {var config = {kitId: 'wxt4lbk',scriptTimeout: 3000};
+	var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+	})();
+</script>
+
+<title>Typeplate » A typographic starter kit encouraging great type on the Web</title>
+
+<meta name="description" content="A typographic starter kit for Web developers and designers, where we don’t make too many design choices, but we do set out patterns for proper markup and “pre-designed” styles for great Web typography.
+">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+<link rel="stylesheet" href="./css/main.css?v=2.0.0"><script src="./js/vendor/modernizr.min.js"></script>
+
+	</head>
+
+	<body>
+		<script async src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=typeplatecom" id="_carbonads_js"></script>
+		<!-- $banner -->
+		<header class="header botDivider column" role="banner">
+	<div class="col-wrap top">
+
+	
+	<!-- oppa csswizardry style: http://csswizardry.com/2013/01/your-logo-is-still-an-image-and-so-is-mine -->
+	<a href="." class="logo">
+		<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Typeplate" class="logo-img">
+	</a>
+	
+
+	
+	<nav class="nav nav-primary" role="navigation">
+		<a href="./demo.html" class="nav-item epsilon" rel="bookmark">Live Demo</a>
+		<a href="https://github.com/typeplate/starter-kit/blob/master/README.md#installation" class="nav-item epsilon" rel="external">Documentation</a>
+		<a href="https://github.com/typeplate/starter-kit/issues" class="nav-item epsilon" rel="external">Bug Tracker</a>
+		<a href="https://twitter.com/Typeplate" class="nav-item epsilon" rel="external">Say Hello</a>
+	</nav>
+	
+
+	
+		<nav class="social-nav">
+			<!-- http://tholman.com/github-corners -->
+			<a href="https:////github.com/typeplate/starter-kit" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: -30px; border: 0; right: -30px;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+		</nav>
+
+		<div class="lede">
+			<p class="delta">Frameworks make decisions for you about how to organize, structure and design a site. Pattern libraries don’t separate styling and markup, making them tough to use in a truly modular fashion. We weren’t satisfied, so we made a thing that doesn’t do that.</p>
+			<p><i><b>Typeplate</b></i> is a “typographic starter kit”. We don’t make aesthetic design choices, but define <b>proper markup with extensible styling</b> for common typographic patterns. A stripped-down <abbr title="syntactically awesome stylesheets">Sass</abbr> or <abbr title="cascading stylesheets">CSS</abbr> library of your choosing primarily concerned with the appropriate technical implementation of design patterns—not how they look.</p>
+		</div>
+	
+
+	</div>
+</header>
+
+
+		<!-- Main content -->
+		<nav class="downloads nav">
+	<div class="col-wrap">
+		<a href="https://raw.github.com/typeplate/starter-kit/master/css/typeplate.css" data-name="CSS Port" class="dl-item btn" title="typeplate.css">CSS</a>
+
+		<a href="https://github.com/typeplate/starter-kit/blob/development/typeplate-sk.zip?raw=true" data-name="Sass Port" class="dl-item btn" title="typeplate.scss">Sass</a>
+
+		<button data-name="Bower Package" class="dl-item btn" data-clipboard-action="copy" data-clipboard-text="bower install typeplate-starter-kit --save">Bower</button>
+
+		<button data-name="CDJS Package" class="dl-item btn" data-clipboard-action="copy" data-clipboard-text="https://cdnjs.cloudflare.com/ajax/libs/typeplate-starter-kit/3.0.1/css/typeplate.min.css">CDNJS</button>
+	</div>
+</nav>
+
+
+<main class="col-wrap" role="main">
+	<!-- $table of contents -->
+<section class="toc" id="table-of-contents">
+
+	<header>
+		<h1 class="typl8-delta center capsify">Table of Contents</h1>
+	</header>
+
+	<div id="drawer" class="visuallyhidden">
+
+		<!-- 1. Base Type -->
+		<ol>
+			<li><a href="#base-type" class="anchorLink">Base Type</a></li>
+			<li><a href="#typographic-scale" class="anchorLink">Typographic Scale</a></li>
+			<li><a href="#color" class="anchorLink">Color</a></li>
+			<li><a href="#word-wrap" class="anchorLink">Word-wrap</a></li>
+		</ol>
+
+		<!-- 2. Paragraphs -->
+		<ol>
+			<li><a href="#indenting" class="anchorLink">Indenting</a></li>
+			<li><a href="#hyphenation" class="anchorLink">Hyphenation</a></li>
+		</ol>
+
+		<!-- 3. Detailing -->
+		<ol>
+			<li><a href="#small-caps" class="anchorLink">Small Capitals</a></li>
+			<li><a href="#drop-caps" class="anchorLink">Drop Capitals</a></li>
+			<li><a href="#unicode-ampersands" class="anchorLink">Unicode Ampersands</a></li>
+			<li><a href="#small-print" class="anchorLink">Small Print</a></li>
+		</ol>
+
+		<!-- 4. Pattern Modules -->
+		<ol>
+			<li><a href="#code-blocks" class="anchorLink">Code Blocks</a></li>
+			<li><a href="#figures" class="anchorLink">Figures</a></li>
+			<li><a href="#block-quotes" class="anchorLink">Block Quotes</a></li>
+			<li><a href="#pull-quotes" class="anchorLink">Pull Quotes</a></li>
+			<li><a href="#footnotes" class="anchorLink">Footnotes</a></li>
+			<li><a href="#definition-lists" class="anchorLink">Definition Lists</a></li>
+		</ol>
+	</div>
+</section>
+
+	<section class="base-type botDivider" id="base-type">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#base-type">§</a> 1.1 Base Type</h1>
+	</header>
+
+	<p>For a solid base we use <a href="https://github.com/typeplate/starter-kit/blob/master/scss/_typeplate-styles.scss#L4-L10">default font settings</a> to allow elements to display in their natural size determined by the browser's default stylesheet. This makes for <a href="https://www.filamentgroup.com/lab/how-we-learned-to-leave-body-font-size-alone.html">lighter CSS and more flexibility</a> in the markup you choose to use. We also ensure unit values for line-heights are never used per the <a href="http://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights" rel="external">recommendations of Eric Meyer</a>.</p>
+
+</section>
+
+	<!-- #typographic-scale -->
+<section class="typographic-scale botDivider" id="typographic-scale">
+	<header>
+		<h1 class="typl8-gamma section-title"><a class="perma-anchor" href="#base-type">§</a> 1.2 Typographic Scale</h1>
+	</header>
+
+	<p>Establish clearly distinguishable heading levels with consistent font-sizes over randomly chosen values. Choose a type hierarchy that is harmonious and consistent with your project. In order to do so we suggest <a href="http://www.alistapart.com/articles/more-meaningful-typography" rel="external">using a modular scale</a> that calculates sizes via a ratio ensuring your design and typography can relate in a meaningful way. There’s an excellent calculator for this at <a href="http://modularscale.com" rel="external">modularscale.com</a>.</p>
+
+	<figure class="typl8-blockquote">
+		<blockquote cite="http://www.alistapart.com/articles/more-meaningful-typography">
+			<p>By using culturally relevant, historically pleasing ratios to create modular scales and basing the measurements in our compositions on values from those scales, we can achieve a visual harmony not found in layouts that use arbitrary, conventional, or easily divisible numbers.</p>
+		</blockquote>
+		<figcaption><cite class="author"><small><a href="http://www.alistapart.com/articles/more-meaningful-typography" rel="external">Tim Brown</a></small></cite></figcaption>
+	</figure>
+
+	<figure class="example">
+		<p class="no-indent typl8-giga">Heading Giga</p>
+		<p class="no-indent typl8-mega">Heading Mega</p>
+		<p class="no-indent typl8-alpha">Heading Alpha</p>
+		<p class="no-indent typl8-beta">Heading Beta</p>
+		<p class="no-indent typl8-gamma">Heading Gamma</p>
+		<p class="no-indent typl8-delta">Heading Delta</p>
+		<p class="no-indent typl8-epsilon">Heading Epsilon</p>
+		<p class="no-indent typl8-zeta">Heading Zeta</p>
+	</figure>
+</section>
+
+	<section class="color botDivider" id="color">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#color">§</a> 1.3 Color</h1>
+	</header>
+
+	<p>Just like in print, don’t use the darkest black available in your body text (<code style="color:#000">#000</code>). Instead, go for something softer, like <code style="color:#444">#444</code>. You can use a slightly darker color for titles like (<code style="color:#222">#222</code>) for example. Since these values are considered a de facto standard in practice, they're not necessarily ordained by law.</p>
+
+	<ul style="display: flex;" class="list-reset">
+		<li style="width: 100px;height: 100px; background: #000">
+			<code style="color:#CCC">#000</code>
+		</li>
+
+		<li style="width: 100px;height: 100px; background: #222">
+			<code style="color:#CCC">#222</code>
+		</li>
+
+		<li style="width: 100px;height: 100px; background: #444">
+			<code style="color:#CCC">#444</code>
+		</li>
+	</ul>
+</section>
+
+	<section class="word-wrap botDivider" id="word-wrap">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#color">§</a> 1.4 Word-Wrap</h1>
+	</header>
+
+	<p>The word-wrap <abbr title="cascading style sheets">CSS</abbr> property is used to specify whether or not, the browser may break lines within words in order to prevent overflow when an otherwise unbreakable string is too long to fit in its containing box.</p>
+
+	<figure class="example">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio iste voluptates saepe ipsa magni repellendus explicabo numquam expedita dolore eveniet accusantium iure sit consequatur? Dolore minus vel blanditiis velit deserunt! We’ll also be checking a few things like the longest word in the world “Methionylthreonylthreonylglutaminylarginylisoleucine” and other stuff like links that are way long such as <a href="http://google.com" rel="external">“Methionylthreonylthreonylglutaminylarginylisoleucine”</a> and other long links like <a href="http://google.com" rel="external">http://192.168.1.100/somedirectory/stayout/of/my/shit</a></p>
+	</figure>
+</section>
+
+	<section class="indenting botDivider" id="indenting">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#indenting">§</a> 2.1 Indenting</h1>
+	</header>
+	<p>On the web, paragraphs are commonly set in blocks, with top and bottom margins. Historically, paragraphs are set using indentation, which makes it easier to scan long-form text and are (we think) more conducive to readability.</p>
+	<p>For the curious, here's a few example sites using the paragraph indentation approach we've chosen for our starter kit…<a href="http://markboulton.co.uk">Mark Boulton</a>, <a href="http://nicewebtype.com">Nice Web Type</a>, <a href="http://andy-logic.com">Andy Rutledge</a> and <a href="http://artequalswork.com">Nathan Ford</a> just to name a few.</p>
+	<p>Authors choosing to opt out of our default styling may feel free to change the boolean variable in the Sass port to remove this opinionated default as depicted in the example below. <abbr title="cascading stylesheets">CSS</abbr> people you'll have to settle for the manual route to customize.</p>
+
+	<figure class="example">
+		<p>I crawled out almost immediately, and crouched, my feet still in the water, under a clump of furze.  The horse lay motionless (his neck was broken, poor brute!) and by the lightning flashes I saw the black bulk of the overturned dog cart and the silhouette of the wheel still spinning slowly.  In another moment the colossal mechanism went striding by me, and passed uphill towards Pyrford.</p>
+		<p>Seen nearer, the Thing was incredibly strange, for it was no mere insensate machine driving on its way.  Machine it was, with a ringing metallic pace, and long, flexible, glittering tentacles (one of which gripped a young pine tree) swinging and rattling about its strange body.</p>
+		<p>It picked its road as it went striding along, and the brazen hood that surmounted it moved to and fro with the inevitable suggestion of a head looking about.  Behind the main body was a huge mass of white metal like a gigantic fisherman’s basket, and puffs of green smoke squirted out from the joints of the limbs as the monster swept by me.  And in an instant it was gone.</p>
+		<p>So much I saw then, all vaguely for the flickering of the lightning, in blinding highlights and dense black shadows.</p>
+		<p>As it passed it set up an exultant deafening howl that drowned the thunder—“Aloo! Aloo!”—and in another minute it was with its companion, half a mile away, stooping over something in the field.  I have no doubt this Thing in the field was the third of the ten cylinders they had fired at us from Mars.</p>
+	</figure>
+</section>
+
+	<section class="hyphenation botDivider" id="hyphenation">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#hyphenation">§</a> 2.2 Hyphenation</h1>
+	</header>
+	<p>Responsive or not, there’s no reason why we shouldn’t all be designing and building sites on flexible foundations. In a fluid layout, browser width and typographic measure are linked: the wider the viewport, the more characters per line. Keeping in mind that a range of 45-75 characters per line is generally accepted as safe for comfortable reading, there are a few things that can be done to avoid extra long lines of text in fluid layouts. <a href="http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063" rel="external">Robert Bringhurst</a> recommends for us to leave at least two characters behind and take at least three forward.</p>
+
+	<figure class="blockquote">
+			<blockquote cite="http://nicewebtype.com/notes/2013/01/16/where-to-avoid-css-hyphenation">
+				<p>Since hyphens is an inherited property, it isn’t sufficient to set it for a limited number of elements and assume you’re done. You have to make sure you’ve turned it off for the elements that shouldn’t be hyphenated.</p>
+			</blockquote>
+			<figcaption><cite class="author"><small><a href="http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation/" rel="external">Eric Meyer</a></small></cite></figcaption>
+	</figure>
+</section>
+
+	<section class="small-caps botDivider" id="small-caps">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#small-caps">§</a> 3.1 Small Capitals</h1>
+	</header>
+
+	<p>Small caps help to make abbreviations way easier to read, but won’t stand out from the text. We highly suggest this bit of typographic flare with your content. True small capitals are now possible on the web, <a href="http://blog.hypsometry.com/articles/true-small-capitals-with-font-face" rel="external">but alas, they are still difficult</a> and will also depend on the typeface in use. Definitely check out <a href="//opentypography.org/fontlist.html" rel="external">Open Typography</a> for those typefaces and services that provide authentic small caps.</p>
+
+	<figure class="example no-top-pad">
+		<p>Lorem ipsum dolor sit amet, consectetur <abbr title="hyper text markup language">HTML</abbr> adipisicing elit. <abbr title="cascading styling sheets">CSS</abbr> Laboriosam voluptatem a beatae accusantium accusamus dolor provident error consectetur quibusdam suscipit neque temporibus. Velit omnis voluptatum quasi tempora reiciendis expedita reprehenderit.</p>
+	</figure>
+</section>
+
+	<section class="drop-capitals botDivider" id="drop-caps">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#drop-caps">§</a> 3.2 Drop Capitals</h1>
+	</header>
+
+	<p>A “Drop Cap” is the art of using an uppercase glyph to mark the start of copy. A technique that has been around for almost two thousand years!</p>
+
+	<figure class="example">
+		<p class="typl8-drop-cap">There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf. Right and left, the streets take you waterward. Its extreme downtown is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land. Look at the crowds of water-gazers there.</p>
+	</figure>
+
+<figure class="typeplate-code-block">
+	<pre class="language-markup"><code>&lt;p class=&quot;typl8-drop-cap&quot;&gt;&hellip;&lt;/p&gt;</code></pre>
+</figure>
+</section>
+
+	<section class="ampersands botDivider" id="unicode-ampersands">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#unicode-ampersands">§</a> 3.3 Unicode Ampersands</h1>
+	</header>
+	<p>With the <a href="http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range"><code>unicode-range</code></a> property, we can avoid using verbose markup and only target the characters we like according to the unicode unique identifier. We also harness the power of the <code>%placeholder</code> in Sass allowing like minded selectors to string together this shared property in a DRY way from one single declaration. Copy and paste the Sass below into <a href="http://codepen.io/pen" rel="external">Codepen</a> and check out the output for yourself. Hint: create multiple classes.</p>
+
+	<figure class="example example--ampersand">
+		<p class="amp">Amper & Sands</p>
+	</figure>
+</section>
+
+	<section class="small-print botDivider" id="small-print">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#code-blocks">§</a> 3.4 Small Print</h1>
+	</header>
+	<p>The <code>small</code> element is used to represent side comments or what’s commonly referred to as ‘small print’: disclaimers, caveats, legal restrictions, or copyrights. It can also be used for attributions or satisfying licensing requirements.</p>
+
+	<figure class="typl8-blockquote">
+			<blockquote cite="http://html5doctor.com/small-hr-element/">
+				<p>…A common use is inline legalese, such as a copyright statement in a page footer, a disclaimer, or licensing information. It can also be used for attribution. Don’t use it for block-level content (paragraphs, lists, etc.), as this would be considered main content. <code>small</code> text does not need to be smaller than surrounding text &mdash; if all you want is smaller text use CSS instead.</p>
+			</blockquote>
+			<figcaption><cite><small><a href="http://html5doctor.com/small-hr-element/">Oli Studholme</a></small></cite></figcaption>
+	</figure>
+
+	<figure class="example">
+		<p class="typl8-zeta">Buy one widget, get one free!
+			<small>(While supplies last. Offer expires on the vernal equinox. Not valid in Ohio.)</small>
+		</p>
+	</figure>
+
+<figure class="typeplate-code-block">
+	<pre class="language-markup"><code>&lt;small&gt;…&lt;/small&gt;</code></pre>
+</figure>
+</section>
+
+	<!-- $Code Blocks -->
+<section class="code-blocks botDivider" id="code-blocks">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#code-blocks">§</a> 4.1 Code Blocks</h1>
+	</header>
+	<p><code>Monospace</code> fonts just as you desire for all your code block dreams! Monospace fonts or <i>“fixed pitch”</i> fonts, contain characters that all have the same character width. ‘l’, ‘1’ and ‘i’ are easily distinguished with monospace, ‘0’, ‘o’ and ‘O’ are easily distinguished and clear punctuation characters, especially braces, parenthesis and brackets.</p>
+
+
+<figure class="typeplate-code-block">
+	<pre class="language-css"><code>.this-widget {
+  max-width: 200px;
+  opacity: 0.5;
+  color: red;
+}</code></pre>
+</figure>
+</section>
+
+	<section class="figures botDivider" id="figures">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#figures">§</a> 4.2 Figures</h1>
+	</header>
+
+	<figure class="example">
+		<img src="./img/type-anatomy.jpg" alt="">
+		<figcaption class="example-figcaption">
+			<strong>Fig. 4.2 | </strong>Type Anatomy, a diagram and anatomy of typography.
+		</figcaption>
+	</figure>
+
+	<figure class="typeplate-code-block">
+		<pre class="language-markup"><code>&lt;figure&gt;
+	&lt;img src=&quot;&quot; alt=&quot;&quot;&gt;
+
+	&lt;figcaption&gt;
+		&lt;strong&gt;&lt;/strong&gt;
+	&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+	</figure>
+</section>
+
+	<!-- http://www.projectevolution.com/activity/how-do-you-solve-a-problem-like-blockquote -->
+<!-- https://github.com/typeplate/typeplate.github.com/issues/95 -->
+<section class="block-quotes botDivider" id="block-quotes">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#block-quotes">§</a> 4.3 Block Quotes</h1>
+	</header>
+
+	<p>The blockquote element represents a section that is being quoted from another source. Good blockquotes should include a citation, but one is not required. Stylistically, these can look a lot like <a href="#pull-quotes">pull-quotes</a> by using <code>:before</code> and <code>:after</code> pseudo elements for the curly quotes, or, authors can include them inline. </p>
+	<p>The contents of <code>blockquote</code> are limited to headings and paragraphs. <code>header</code>, <code>footer</code>, or <code>cite</code> tags are not allowed. For more examples, see <a href="https://gist.github.com/murtaugh/4489740">A List Apart's sample blockquote patterns</a>.</p>
+
+	<figure class="example no-top-pad">
+		<figure>
+			<blockquote cite="http://trentwalton.com/2012/06/19/fluid-type">
+				<p>Embracing the fluid &amp; flexible aspect of responsive web design was an easy decision, but I’ve been less sure-footed when it comes to balancing that with setting type on the web</p>
+			</blockquote>
+			<figcaption><cite><small><a href="http://trentwalton.com/2012/06/19/fluid-type">Trent Walton</a></small></cite></figcaption>
+		</figure>
+	</figure>
+
+	<figure class="typeplate-code-block">
+	<pre class="language-markup"><code>&lt;figure class="typl8-blockquote"&gt;
+	&lt;blockquote cite=&quot;&quot;&gt;
+		&lt;p&gt;&lt;/p&gt;
+	&lt;/blockquote&gt;
+
+	&lt;figcaption&gt;
+	  &lt;cite&gt;
+	    &lt;small&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/small&gt;
+	  &lt;/cite&gt;
+	&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+	</figure>
+
+</section>
+
+	<!-- http://24ways.org/2005/swooshy-curly-quotes-without-images -->
+<!-- http://www.smashingmagazine.com/2008/06/12/block-quotes-and-pull-quotes-examples-and-good-practices/ -->
+<section class="pull-quotes botDivider" id="pull-quotes">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#pull-quotes">§</a> 4.4 Pull Quotes</h1>
+	</header>
+	<p>Pull quotes are tricky, but with this little ditty they’re not so difficult or tedious anymore. The example is an improvement based upon the <a href="http://24ways.org/2005/swooshy-curly-quotes-without-images" rel="external" target="blank">24 ways article discussing swooshy curly quotes without images.</a> This particular example depicted takes advantage of psuedo selectors and the <code>&lt;aside&gt;</code> tag.</p>
+
+	<figure class="example no-top-pad pull-example">
+		<aside class="typl8-pull-quote">
+			<blockquote>
+				<p>Most people who use Helvetica, use it because it's ubiquitous. It's like going to McDonald's instead of thinking about food. Because it's there, it's on every street corner, so let's eat crap because it's on the corner.</p>
+			</blockquote>
+		</aside>
+	</figure>
+
+<figure class="typeplate-code-block">
+	<pre class="language-markup"><code>&lt;aside class=&quot;typl8-pull-quote&quot;&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;</code></pre>
+</figure>
+</section>
+
+	<section class="footnotes botDivider" id="footnotes">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#footnotes">§</a> 4.7 Footnotes</h1>
+	</header>
+
+	<figure class="example no-top-pad">
+		<article>
+			<p>The sites we’ve built to display on a desktop, smartphone, or a tablet today could be on a TV Screen, coffee table display, or mega space yacht projection system tomorrow. Do yourself a favor and heed the advice of the Dao: A fully-scalable web<sup><a href="#fn-item1" id="fn-return">1</a></sup></p>
+			<footer class="foot-note">
+				<ol>
+					<li id="fn-item1">Style sheets that use relative units can more easily scale from one output environment to another. Most of the time I use em and rem. <a href="#fn-return">↩</a></li>
+				</ol>
+			</footer>
+		</article>
+	</figure>
+
+<figure class="typeplate-code-block">
+	<pre class="language-markup"><code>&lt;article&gt;
+  &lt;p&gt;&lt;sup&gt;&lt;a href=&quot;#fn-itemX&quot; id=&quot;fn-returnX&quot;&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;ol class=&quot;foot-notes&quot;&gt;
+      &lt;li id=&quot;fn-itemX&quot;&gt;&lt;a href=&quot;#fn-returnX&quot;&gt;&#x21a9;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/footer&gt;
+&lt;/article&gt;</code></pre>
+</figure>
+</section>
+
+	<section class="definition-lists botDivider" id="definition-lists">
+	<header>
+		<h1 class="gamma section-title"><a class="perma-anchor" href="#definition-lists">§</a> 4.8 Definition Lists</h1>
+	</header>
+
+	<p>The dl element is for another type of list called a definition list. Instead of list items, the content of a dl consists of dt (Definition Term) and dd (Definition Description) pairs.</p>
+	<p>TypePlate offers several different patterns for definition lists. In all three of the examples below, the contents of dts are wrapped in b tags, and a class of .micro is given to the contents of dds. First is the default format for definitions lists.</p>
+
+	<h3 class="typl8-delta">a) Multi-line Definitions (default)</h3>
+	<figure class="example no-top-pad">
+		<dl>
+			<dt><b>This is a term</b></dt>
+				<dd>this is the definition of that term, which both live in a <code>dl</code>.</dd>
+			<dt><b>Another Term</b></dt>
+				<dd>And it gets a definition too, which is this line</dd>
+				<dd>This is a 2<sup>nd</sup> definition for a single term. A <code>dt</code> may be followed by multiple <code>dd</code>s.</dd>
+		</dl>
+	</figure>
+
+<figure class="typeplate-code-block">
+	<pre class="language-markup"><code>&lt;dl&gt;
+	&lt;dt&gt;&lt;b&gt;This is a term&lt;/b&gt;&lt;/dt&gt;
+	&lt;dd&gt;this is the definition of that term, which both live in a &lt;code&gt;dl&lt;/code&gt;.&lt;/dd&gt;
+
+	&lt;dt&gt;&lt;b&gt;Another Term&lt;/b&gt;&lt;/dt&gt;
+	&lt;dd&gt;And it gets a definition too, which is this line&lt;/dd&gt;
+	&lt;dd&gt;This is a 2&lt;sup&gt;nd&lt;/sup&gt; definition for a single term. A &lt;code&gt;dt&lt;/code&gt; may be followed by multiple &lt;code&gt;dd&lt;/code&gt;s.&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+</figure>
+
+	<h3 class="typl8-delta">b) Inline Definitions</h3>
+	<p>The second format for definition lists is lining. This style is more robust, with support for multiple terms defined by a single definition, and applies proper punctuation (: ,) where appropriate:</p>
+
+	<figure class="example no-top-pad">
+		<dl class="typl8-lining">
+			<dt><b>This is a term</b></dt>
+				<dd>this is the definition of that term, which both live in a <code>dl</code>.</dd>
+			<dt><b>Another Term</b></dt>
+				<dd class="micro">And it gets a definition too, which is this line</dd>
+				<dd class="micro"> this is a 2<sup>nd</sup> definition for a single term.</dd>
+			<dt><b>Term</b></dt>
+			<dt><b>Other Defined Term</b></dt>
+				<dd><code>dt</code> terms may stand on their own without an accompanying <code>dd</code>, but in that case they <em>share</em> descriptions with the next available <code>dt</code>. You may not have a <code>dd</code> without a parent <code>dt</code>.</dd>
+		</dl>
+	</figure>
+
+<figure class="typeplate-code-block">
+	<pre class="language-markup"><code>&lt;dl class=&quot;typl8-lining&quot;&gt;
+	&lt;dt&gt;&lt;b&gt;This is a term&lt;/b&gt;&lt;/dt&gt;
+	&lt;dd&gt;this is the definition of that term, which both live in a &lt;code&gt;dl&lt;/code&gt;.&lt;/dd&gt;
+
+	&lt;dt&gt;&lt;b&gt;Another Term&lt;/b&gt;&lt;/dt&gt;
+	&lt;dd class=&quot;micro&quot;&gt;And it gets a definition too, which is this line&lt;/dd&gt;
+	&lt;dd class=&quot;micro&quot;&gt; this is a 2&lt;sup&gt;nd&lt;/sup&gt; definition for a single term.&lt;/dd&gt;
+
+	&lt;dt&gt;&lt;b&gt;Term&lt;/b&gt;&lt;/dt&gt;
+
+	&lt;dt&gt;&lt;b&gt;Other Defined Term&lt;/b&gt;&lt;/dt&gt;
+	&lt;dd&gt;&lt;code&gt;dt&lt;/code&gt; terms may stand on their own without an accompanying &lt;code&gt;dd&lt;/code&gt;, but in that case they &lt;em&gt;share&lt;/em&gt; descriptions with the next available &lt;code&gt;dt&lt;/code&gt;. You may not have a &lt;code&gt;dd&lt;/code&gt; without a parent &lt;code&gt;dt&lt;/code&gt;.&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+</figure>
+
+	<h3 class="typl8-delta">c) Dictionary-style Definition</h3>
+	<p>The third format for definition lists is dictionary. This style is more a formal, applying proper punctuation where necessary and includes ordinal indicators:</p>
+
+	<figure class="example no-top-pad">
+		<dl class="typl8-dictionary-style">
+			<dt><b>This is a term</b></dt>
+				<dd>this is the definition of that term, which both live in a <code>dl</code>.</dd>
+			<dt><b>Another Term</b></dt>
+				<dd>And it gets a definition too, which is this line</dd>
+				<dd> this is a 2<sup>nd</sup> definition for a single term.</dd>
+			<dt><b>Term</b></dt>
+			<dt><b>Other Defined Term</b></dt>
+				<dd><code>dt</code> terms may stand on their own without an accompanying <code>dd</code>, but in that case they <em>share</em> descriptions with the next available <code>dt</code>. You may not have a <code>dd</code> without a parent <code>dt</code>.</dd>
+		</dl>
+	</figure>
+
+<figure class="typeplate-code-block">
+	<pre class="language-markup"><code>&lt;dl class=&quot;typl8-dictionary-style&quot;&gt;
+	&lt;dt&gt;&lt;b&gt;This is a term&lt;/b&gt;&lt;/dt&gt;
+	&lt;dd&gt;this is the definition of that term, which both live in a &lt;code&gt;dl&lt;/code&gt;.&lt;/dd&gt;
+
+	&lt;dt&gt;&lt;b&gt;Another Term&lt;/b&gt;&lt;/dt&gt;
+	&lt;dd&gt;And it gets a definition too, which is this line&lt;/dd&gt;
+	&lt;dd&gt; this is a 2&lt;sup&gt;nd&lt;/sup&gt; definition for a single term.&lt;/dd&gt;
+
+	&lt;dt&gt;&lt;b&gt;Term&lt;/b&gt;&lt;/dt&gt;
+
+	&lt;dt&gt;&lt;b&gt;Other Defined Term&lt;/b&gt;&lt;/dt&gt;
+	&lt;dd&gt;&lt;code&gt;dt&lt;/code&gt; terms may stand on their own without an accompanying &lt;code&gt;dd&lt;/code&gt;, but in that case they &lt;em&gt;share&lt;/em&gt; descriptions with the next available &lt;code&gt;dt&lt;/code&gt;. You may not have a &lt;code&gt;dd&lt;/code&gt; without a parent &lt;code&gt;dt&lt;/code&gt;.&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+</figure>
+</section>
+
+</main>
+
+
+		<!-- Footer -->
+		
+<footer role="contentinfo" class="site-footer">
+	<p>Copyright &copy;2016. <a href="https://twitter.com/typeplate">@Typeplate</a> is a <a href="https://twitter.com/gryghostvisuals">@gryghostvisuals</a> and <a href="https://twitter.com/zakkain">@zakkain</a> Joint<sup>&trade;</sup> Logo Crafting by <a href="https://twitter.com/TommyCreenan">@TommyCreenan</a>.</p>
+</footer>
+
+
+
+		<!-- JavaScript and analytics -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery.min.js"><\/script>')</script>
+
+<script src="./js/minified/clipboard.min.js"></script>
+<script>
+var dl_btns        = document.querySelectorAll('.btn'),
+		dl_btns_length = dl_btns.length;
+
+for (var i = 0, l = dl_btns_length; i < l; i++) {
+	dl_btns[i].addEventListener('mouseleave', function(e) {
+		e.currentTarget.classList.toggle('tooltipped');
+		e.currentTarget.removeAttribute('aria-label');
+	});
+}
+
+function showTooltip(elem, msg) {
+	elem.classList.toggle('tooltipped');
+	elem.setAttribute('aria-label', msg);
+}
+
+function fallbackMessage(action) {
+	var actionMsg = '',
+			actionKey = (action === 'cut' ? 'X' : 'C');
+
+	if(/iPhone|iPad/i.test(navigator.userAgent)) {
+		actionMsg = 'No support :(';
+	}
+
+	else if (/Mac/i.test(navigator.userAgent)) {
+		actionMsg = 'Press ⌘-' + actionKey + ' to ' + action;
+	}
+
+	else {
+		actionMsg = 'Press Ctrl-' + actionKey + ' to ' + action;
+	}
+
+	return actionMsg;
+}
+
+// https://clipboardjs.com
+var clipboard = new Clipboard('.dl-item.btn');
+
+clipboard.on('success', function(e) {
+	e.clearSelection();
+	showTooltip(e.trigger, 'Copied!')
+});
+
+clipboard.on('error', function(e) {
+	showTooltip(e.trigger, fallbackMessage(e.action));
+});
+</script>
+
+
+
+
+<script src="./js/minified/main-min.js?v=2.0.0"></script>
+
+
+
+	<script>
+	var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-38761755-1']);
+		_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+
+	</body>
+</html>

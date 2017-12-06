@@ -1,0 +1,18 @@
+overflow - what to do with extra stuff (i.e. when you size the window too small to diplay contents
+
+	overflow: scroll
+	overflow: hidden
+
+___________
+
+define clearfix
+after
+	pseudo element
+
+.clearfix::after {
+
+	content: "";
+	display: block;
+	clear: both;
+
+}
